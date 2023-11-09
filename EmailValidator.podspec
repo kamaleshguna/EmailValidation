@@ -4,13 +4,12 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.0"
   spec.summary      = "This is the best"
   spec.description  = "Email validation flow"
-  spec.homepage     = "https://github.com/kamaleshguna/EmailValidation/tree/main"
+  spec.homepage     = "https://github.com/kamaleshguna/EmailValidation"
   
   spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author             = { "Kamalesh" => "kamalesh2002.gk@gmail.com" }
    spec.platform     = :ios, "13.4"
-  spec.source       = { :git => "git@github.com:kamaleshguna/EmailValidation.git", :tag => spec.version}
+  spec.source       = { :git => "git@github.com:kamaleshguna/EmailValidation.git", :tag => spec.version.to_s}
   spec.source_files  = "EmailValidator/**/*.{swift}"
   spec.swift_version = "5.0"
 end
